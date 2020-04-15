@@ -26,7 +26,6 @@ def earliest_ancestor_internal(ancestors, starting_node, parents=None):
 			if depth > deepest_depth:
 				deepest_depth = depth
 				deepest_node = node
-
 			elif depth == deepest_depth:
 				if node < deepest_node:
 					deepest_node = node
